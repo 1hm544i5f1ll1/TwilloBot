@@ -1,0 +1,4 @@
+# requirements.txt
+Flask
+twilio
+python-dotenv
