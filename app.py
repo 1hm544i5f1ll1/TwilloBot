@@ -8,7 +8,7 @@ from twilio.base.exceptions import TwilioRestException
 # load creds
 load_dotenv()
 client = Client(os.getenv("TWILIO_SID"), os.getenv("TWILIO_TOKEN"))
-FROM = "whatsapp:+14155238886"  # your sandbox
+FROM = "whatsapp:+XXXXXXXXXXX"  # your sandbox
 
 st.title("WhatsApp Test Sender")
 to_number = st.text_input("Destination (E.164, e.g. +1XXX…)")
